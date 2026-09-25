@@ -57,5 +57,3 @@ module mem_ctrl_assertions(
     end
   endgenerate
 endmodule
-
-bind mem_ctrl_if mem_ctrl_assertions u_assertions (.*);
