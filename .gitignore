@@ -1,10 +1,21 @@
 ﻿# Vivado project (regenerable — created by sim/vivado_proj setup)
 sim/vivado_proj/
+xsim.dir/
 *.jou
 *.log
 *.str
+*.pb
+*.wdb
+*.wcfg
 .Xil/
 vivado*.backup.jou
 vivado*.backup.log
 webtalk*.log
 webtalk*.jou
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+.vscode/
+hs_err_pid*.dmp
+dfx_runtime.txt
